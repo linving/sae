@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- <constant name="struts.devMode" value="true" /> -->
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.convention.default.parent.package"
+		value="root" />
+
+	<package name="root" extends="struts-default">
+		<global-results>
+			<result name="input">/jsp/error.jsp</result>
+		</global-results>
+		<!-- 按名称搜索 -->
+		<action name="search" class="cn.net.msg.action.UserAction"
+			method="findByName">
+			<result name="success">/jsp/welcome.jsp</result>
+		</action>
+		<!-- 下面三个action处理前台传过来的增删改请求，然后redirect回主页 -->
+		<action name="handleinseart" class="cn.net.msg.action.UserAction"
+			method="inseart">
+			<result name="success" type="redirect">/</result>
+		</action>
+		<action name="handleupdate" class="cn.net.msg.action.UserAction"
+			method="update">
+			<result name="success" type="redirect">/</result>
+		</action>
+		<action name="handledelete" class="cn.net.msg.action.UserAction"
+			method="delete">
+			<result name="success" type="redirect">/</result>
+		</action>
+		<!-- 欢迎页面 -->
+		<action name="" class="cn.net.msg.action.UserAction" method="findAll">
+			<result>/jsp/index.jsp</result>
+		</action>
+	</package>
+	<package name="user_info" namespace="/user" extends="struts-default">
+
+		<action name="userinfo" class="userInfoAction">
+			<result name="success">
+				/jsp/userinfo.jsp
+			</result>
+			<result name=""></result>
+		</action>
+
+	</package>
+
+	<!-- baidu shouji bao -->
+
+	<package name="userphone" namespace="/phone" extends="struts-default">
+
+		<action name="save" class="userPhoneAction" method="saveUser">
+			<result name="success">/jsp/note.jsp</result>
+			<result name="error">/jsp/note.jsp</result>
+		</action>
+		<action name="savelocation" class="locationAction" method="saveLocation">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+		<action name="currentlocation" class="locationAction" method="searchcurrentlocation">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+		<action name="oldlocation" class="locationAction" method="searcholdlocation">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+
+	</package>
+
+
+	<package name="friends" extends="struts-default" namespace="/friends">
+
+		<action name="addfriends" class="friendsAction" method="addFriends">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+		<action name="listfriends" class="friendsAction" method="listFriends">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+		<action name="leavemessages" class="friendsAction" method="leaveMessages">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+
+
+		<action name="checkmessages" class="friendsAction" method="checkMessages">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+
+		<action name="listmessages" class="friendsAction" method="listMessages">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+
+		<!-- -->
+		<action name="messageswithsomebody" class="friendsAction"
+			method="messagesWithSomeBody">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+		<action name="deletefriend" class="friendsAction" method="deleteFriends">
+			<result name="success">/jsp/info.jsp</result>
+			<result name="error">/jsp/info.jsp</result>
+		</action>
+
+
+	</package>
+
+
+</struts>

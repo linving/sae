@@ -1,0 +1,273 @@
+2013-05-29 11:10:00 [main:0] - [ INFO] Root WebApplicationContext: initialization started
+2013-05-29 11:10:00 [main:157] - [ INFO] Refreshing Root WebApplicationContext: startup date [Wed May 29 11:10:00 CST 2013]; root of context hierarchy
+2013-05-29 11:10:00 [main:407] - [ INFO] Loading XML bean definitions from URL [file:/C:/workspace/SAE_TEST/build/classes/spring.xml]
+2013-05-29 11:10:02 [main:2063] - [ INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18c74: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:10:02 [main:2422] - [ INFO] Hibernate Annotations 3.5.5-Final
+2013-05-29 11:10:02 [main:2438] - [ INFO] Hibernate 3.5.5-Final
+2013-05-29 11:10:02 [main:2454] - [ INFO] hibernate.properties not found
+2013-05-29 11:10:02 [main:2454] - [ INFO] Bytecode provider name : javassist
+2013-05-29 11:10:02 [main:2469] - [ INFO] using JDK 1.4 java.sql.Timestamp handling
+2013-05-29 11:10:02 [main:2719] - [ INFO] Hibernate Commons Annotations 3.2.0.Final
+2013-05-29 11:10:02 [main:2860] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Current_location
+2013-05-29 11:10:03 [main:2954] - [ INFO] Bind entity cn.net.msg.model.Current_location on table Current_location
+2013-05-29 11:10:03 [main:3094] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Old_location
+2013-05-29 11:10:03 [main:3094] - [ INFO] Bind entity cn.net.msg.model.Old_location on table Old_location
+2013-05-29 11:10:03 [main:3125] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User
+2013-05-29 11:10:03 [main:3125] - [ INFO] Bind entity cn.net.msg.model.User on table t_demo
+2013-05-29 11:10:03 [main:3125] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User_Phone
+2013-05-29 11:10:03 [main:3125] - [ INFO] Bind entity cn.net.msg.model.User_Phone on table user_table
+2013-05-29 11:10:03 [main:3282] - [ INFO] Hibernate Validator not found: ignoring
+2013-05-29 11:10:03 [main:3282] - [ INFO] Building new Hibernate SessionFactory
+2013-05-29 11:10:03 [main:3297] - [ INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-05-29 11:10:03 [main:3360] - [ WARN] composite-id class does not override equals(): cn.net.msg.model.Current_location
+2013-05-29 11:10:03 [main:3360] - [ WARN] composite-id class does not override hashCode(): cn.net.msg.model.Current_location
+2013-05-29 11:10:03 [main:3375] - [ INFO] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2013-05-29 11:10:04 [main:4297] - [ INFO] RDBMS: MySQL, version: 5.5.27
+2013-05-29 11:10:04 [main:4297] - [ INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+2013-05-29 11:10:04 [main:4360] - [ INFO] Using dialect: org.hibernate.dialect.MySQL5Dialect
+2013-05-29 11:10:04 [main:4375] - [ INFO] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-05-29 11:10:04 [main:4375] - [ INFO] Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2013-05-29 11:10:04 [main:4375] - [ INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-05-29 11:10:04 [main:4375] - [ INFO] Automatic flush during beforeCompletion(): disabled
+2013-05-29 11:10:04 [main:4375] - [ INFO] Automatic session close at end of transaction: disabled
+2013-05-29 11:10:04 [main:4375] - [ INFO] JDBC batch size: 15
+2013-05-29 11:10:04 [main:4375] - [ INFO] JDBC batch updates for versioned data: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Scrollable result sets: enabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] JDBC3 getGeneratedKeys(): enabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Connection release mode: auto
+2013-05-29 11:10:04 [main:4407] - [ INFO] Maximum outer join fetch depth: 2
+2013-05-29 11:10:04 [main:4407] - [ INFO] Default batch fetch size: 1
+2013-05-29 11:10:04 [main:4407] - [ INFO] Generate SQL with comments: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Order SQL updates by primary key: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Order SQL inserts for batching: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-05-29 11:10:04 [main:4407] - [ INFO] Using ASTQueryTranslatorFactory
+2013-05-29 11:10:04 [main:4407] - [ INFO] Query language substitutions: {}
+2013-05-29 11:10:04 [main:4407] - [ INFO] JPA-QL strict compliance: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Second-level cache: enabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Query cache: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2013-05-29 11:10:04 [main:4407] - [ INFO] Optimize cache for minimal puts: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Structured second-level cache entries: disabled
+2013-05-29 11:10:04 [main:4407] - [ INFO] Echoing all SQL to stdout
+2013-05-29 11:10:04 [main:4422] - [ INFO] Statistics: disabled
+2013-05-29 11:10:04 [main:4422] - [ INFO] Deleted entity synthetic identifier rollback: disabled
+2013-05-29 11:10:04 [main:4422] - [ INFO] Default entity-mode: pojo
+2013-05-29 11:10:04 [main:4422] - [ INFO] Named query checking : enabled
+2013-05-29 11:10:04 [main:4422] - [ INFO] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2013-05-29 11:10:04 [main:4500] - [ INFO] building session factory
+2013-05-29 11:10:05 [main:4985] - [ INFO] Not binding factory to JNDI, no JNDI name configured
+2013-05-29 11:10:05 [main:5000] - [ INFO] Running hbm2ddl schema update
+2013-05-29 11:10:05 [main:5000] - [ INFO] fetching database metadata
+2013-05-29 11:10:05 [main:5016] - [ INFO] updating schema
+2013-05-29 11:10:05 [main:5266] - [ INFO] table found: map.current_location
+2013-05-29 11:10:05 [main:5266] - [ INFO] columns: [time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:10:05 [main:5266] - [ INFO] foreign keys: [fk10e86fdb4a6e808f]
+2013-05-29 11:10:05 [main:5266] - [ INFO] indexes: [fk10e86fdb4a6e808f, primary, user_id]
+2013-05-29 11:10:05 [main:5344] - [ INFO] table found: map.old_location
+2013-05-29 11:10:05 [main:5344] - [ INFO] columns: [id, time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:10:05 [main:5344] - [ INFO] foreign keys: [fk13b272ed4a6e808f]
+2013-05-29 11:10:05 [main:5344] - [ INFO] indexes: [fk13b272ed4a6e808f, primary]
+2013-05-29 11:10:05 [main:5391] - [ INFO] table found: map.t_demo
+2013-05-29 11:10:05 [main:5391] - [ INFO] columns: [id, sex, name, age]
+2013-05-29 11:10:05 [main:5391] - [ INFO] foreign keys: []
+2013-05-29 11:10:05 [main:5391] - [ INFO] indexes: [primary]
+2013-05-29 11:10:05 [main:5438] - [ INFO] table found: map.user_table
+2013-05-29 11:10:05 [main:5438] - [ INFO] columns: [id, phone, name, password]
+2013-05-29 11:10:05 [main:5438] - [ INFO] foreign keys: []
+2013-05-29 11:10:05 [main:5438] - [ INFO] indexes: [primary]
+2013-05-29 11:10:05 [main:5438] - [ INFO] schema update complete
+2013-05-29 11:10:05 [main:5625] - [ INFO] Using DataSource [org.apache.commons.dbcp.BasicDataSource@145fe3b] of Hibernate SessionFactory for HibernateTransactionManager
+2013-05-29 11:10:06 [main:6063] - [ INFO] Root WebApplicationContext: initialization completed in 6031 ms
+2013-05-29 11:10:06 [main:6485] - [ INFO] Parsing configuration file [struts-default.xml]
+2013-05-29 11:10:06 [main:6688] - [ INFO] Parsing configuration file [struts-plugin.xml]
+2013-05-29 11:10:06 [main:6735] - [ INFO] Parsing configuration file [struts.xml]
+2013-05-29 11:10:06 [main:6875] - [ INFO] Initializing Struts-Spring integration...
+2013-05-29 11:10:06 [main:6875] - [ INFO] Setting autowire strategy to name
+2013-05-29 11:10:06 [main:6875] - [ INFO] ... initialized Struts-Spring integration successfully
+2013-05-29 11:25:48 [Scanner-0:948250] - [ INFO] Closing Root WebApplicationContext: startup date [Wed May 29 11:10:00 CST 2013]; root of context hierarchy
+2013-05-29 11:25:48 [Scanner-0:948266] - [ INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18c74: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:25:48 [Scanner-0:948563] - [ INFO] Closing Hibernate SessionFactory
+2013-05-29 11:25:48 [Scanner-0:948563] - [ INFO] closing
+2013-05-29 11:25:54 [Scanner-0:0] - [ INFO] Root WebApplicationContext: initialization started
+2013-05-29 11:25:54 [Scanner-0:140] - [ INFO] Refreshing Root WebApplicationContext: startup date [Wed May 29 11:25:54 CST 2013]; root of context hierarchy
+2013-05-29 11:25:54 [Scanner-0:297] - [ INFO] Loading XML bean definitions from URL [file:/C:/workspace/SAE_TEST/build/classes/spring.xml]
+2013-05-29 11:25:56 [Scanner-0:2703] - [ INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@99d56b: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:25:57 [Scanner-0:3015] - [ INFO] Hibernate Annotations 3.5.5-Final
+2013-05-29 11:25:57 [Scanner-0:3062] - [ INFO] Hibernate 3.5.5-Final
+2013-05-29 11:25:57 [Scanner-0:3062] - [ INFO] hibernate.properties not found
+2013-05-29 11:25:57 [Scanner-0:3062] - [ INFO] Bytecode provider name : javassist
+2013-05-29 11:25:57 [Scanner-0:3078] - [ INFO] using JDK 1.4 java.sql.Timestamp handling
+2013-05-29 11:25:57 [Scanner-0:3390] - [ INFO] Hibernate Commons Annotations 3.2.0.Final
+2013-05-29 11:25:57 [Scanner-0:3562] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Current_location
+2013-05-29 11:25:57 [Scanner-0:3656] - [ INFO] Bind entity cn.net.msg.model.Current_location on table Current_location
+2013-05-29 11:25:57 [Scanner-0:3765] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Old_location
+2013-05-29 11:25:57 [Scanner-0:3765] - [ INFO] Bind entity cn.net.msg.model.Old_location on table Old_location
+2013-05-29 11:25:57 [Scanner-0:3765] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User
+2013-05-29 11:25:57 [Scanner-0:3781] - [ INFO] Bind entity cn.net.msg.model.User on table t_demo
+2013-05-29 11:25:57 [Scanner-0:3781] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User_Phone
+2013-05-29 11:25:57 [Scanner-0:3781] - [ INFO] Bind entity cn.net.msg.model.User_Phone on table user_table
+2013-05-29 11:25:57 [Scanner-0:3922] - [ INFO] Hibernate Validator not found: ignoring
+2013-05-29 11:25:57 [Scanner-0:3937] - [ INFO] Building new Hibernate SessionFactory
+2013-05-29 11:25:57 [Scanner-0:3937] - [ INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-05-29 11:25:58 [Scanner-0:4015] - [ WARN] composite-id class does not override equals(): cn.net.msg.model.Current_location
+2013-05-29 11:25:58 [Scanner-0:4015] - [ WARN] composite-id class does not override hashCode(): cn.net.msg.model.Current_location
+2013-05-29 11:25:58 [Scanner-0:4031] - [ INFO] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2013-05-29 11:25:59 [Scanner-0:5265] - [ INFO] RDBMS: MySQL, version: 5.5.27
+2013-05-29 11:25:59 [Scanner-0:5281] - [ INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+2013-05-29 11:25:59 [Scanner-0:5344] - [ INFO] Using dialect: org.hibernate.dialect.MySQL5Dialect
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Automatic flush during beforeCompletion(): disabled
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Automatic session close at end of transaction: disabled
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] JDBC batch size: 15
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] JDBC batch updates for versioned data: disabled
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Scrollable result sets: enabled
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] JDBC3 getGeneratedKeys(): enabled
+2013-05-29 11:25:59 [Scanner-0:5359] - [ INFO] Connection release mode: auto
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Maximum outer join fetch depth: 2
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Default batch fetch size: 1
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Generate SQL with comments: disabled
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Order SQL updates by primary key: disabled
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Order SQL inserts for batching: disabled
+2013-05-29 11:25:59 [Scanner-0:5375] - [ INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Using ASTQueryTranslatorFactory
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Query language substitutions: {}
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] JPA-QL strict compliance: disabled
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Second-level cache: enabled
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Query cache: disabled
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Optimize cache for minimal puts: disabled
+2013-05-29 11:25:59 [Scanner-0:5390] - [ INFO] Structured second-level cache entries: disabled
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Echoing all SQL to stdout
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Statistics: disabled
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Deleted entity synthetic identifier rollback: disabled
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Default entity-mode: pojo
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Named query checking : enabled
+2013-05-29 11:25:59 [Scanner-0:5406] - [ INFO] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2013-05-29 11:25:59 [Scanner-0:5765] - [ INFO] building session factory
+2013-05-29 11:26:00 [Scanner-0:6219] - [ INFO] Not binding factory to JNDI, no JNDI name configured
+2013-05-29 11:26:00 [Scanner-0:6265] - [ INFO] Running hbm2ddl schema update
+2013-05-29 11:26:00 [Scanner-0:6265] - [ INFO] fetching database metadata
+2013-05-29 11:26:00 [Scanner-0:6265] - [ INFO] updating schema
+2013-05-29 11:26:00 [Scanner-0:6609] - [ INFO] table found: map.current_location
+2013-05-29 11:26:00 [Scanner-0:6609] - [ INFO] columns: [time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:26:00 [Scanner-0:6609] - [ INFO] foreign keys: [fk10e86fdb4a6e808f]
+2013-05-29 11:26:00 [Scanner-0:6609] - [ INFO] indexes: [fk10e86fdb4a6e808f, primary, user_id]
+2013-05-29 11:26:00 [Scanner-0:6687] - [ INFO] table found: map.old_location
+2013-05-29 11:26:00 [Scanner-0:6687] - [ INFO] columns: [id, time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:26:00 [Scanner-0:6687] - [ INFO] foreign keys: [fk13b272ed4a6e808f]
+2013-05-29 11:26:00 [Scanner-0:6687] - [ INFO] indexes: [fk13b272ed4a6e808f, primary]
+2013-05-29 11:26:00 [Scanner-0:6750] - [ INFO] table found: map.t_demo
+2013-05-29 11:26:00 [Scanner-0:6750] - [ INFO] columns: [id, sex, name, age]
+2013-05-29 11:26:00 [Scanner-0:6750] - [ INFO] foreign keys: []
+2013-05-29 11:26:00 [Scanner-0:6750] - [ INFO] indexes: [primary]
+2013-05-29 11:26:00 [Scanner-0:6797] - [ INFO] table found: map.user_table
+2013-05-29 11:26:00 [Scanner-0:6812] - [ INFO] columns: [id, phone, name, password]
+2013-05-29 11:26:00 [Scanner-0:6812] - [ INFO] foreign keys: []
+2013-05-29 11:26:00 [Scanner-0:6812] - [ INFO] indexes: [primary]
+2013-05-29 11:26:00 [Scanner-0:6812] - [ INFO] schema update complete
+2013-05-29 11:26:01 [Scanner-0:7015] - [ INFO] Using DataSource [org.apache.commons.dbcp.BasicDataSource@13c765e] of Hibernate SessionFactory for HibernateTransactionManager
+2013-05-29 11:26:01 [Scanner-0:7562] - [ INFO] Root WebApplicationContext: initialization completed in 7562 ms
+2013-05-29 11:26:01 [Scanner-0:7922] - [ INFO] Parsing configuration file [struts-default.xml]
+2013-05-29 11:26:02 [Scanner-0:8172] - [ INFO] Parsing configuration file [struts-plugin.xml]
+2013-05-29 11:26:02 [Scanner-0:8250] - [ INFO] Parsing configuration file [struts.xml]
+2013-05-29 11:26:02 [Scanner-0:8406] - [ INFO] Initializing Struts-Spring integration...
+2013-05-29 11:26:02 [Scanner-0:8406] - [ INFO] Setting autowire strategy to name
+2013-05-29 11:26:02 [Scanner-0:8406] - [ INFO] ... initialized Struts-Spring integration successfully
+2013-05-29 11:32:03 [Scanner-0:369328] - [ INFO] Closing Root WebApplicationContext: startup date [Wed May 29 11:25:54 CST 2013]; root of context hierarchy
+2013-05-29 11:32:03 [Scanner-0:369344] - [ INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@99d56b: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:32:03 [Scanner-0:369406] - [ INFO] Closing Hibernate SessionFactory
+2013-05-29 11:32:03 [Scanner-0:369406] - [ INFO] closing
+2013-05-29 11:32:06 [Scanner-0:0] - [ INFO] Root WebApplicationContext: initialization started
+2013-05-29 11:32:06 [Scanner-0:94] - [ INFO] Refreshing Root WebApplicationContext: startup date [Wed May 29 11:32:06 CST 2013]; root of context hierarchy
+2013-05-29 11:32:06 [Scanner-0:234] - [ INFO] Loading XML bean definitions from URL [file:/C:/workspace/SAE_TEST/build/classes/spring.xml]
+2013-05-29 11:32:07 [Scanner-0:1156] - [ INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6bd530: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:32:08 [Scanner-0:1406] - [ INFO] Hibernate Annotations 3.5.5-Final
+2013-05-29 11:32:08 [Scanner-0:1437] - [ INFO] Hibernate 3.5.5-Final
+2013-05-29 11:32:08 [Scanner-0:1437] - [ INFO] hibernate.properties not found
+2013-05-29 11:32:08 [Scanner-0:1469] - [ INFO] Bytecode provider name : javassist
+2013-05-29 11:32:08 [Scanner-0:1469] - [ INFO] using JDK 1.4 java.sql.Timestamp handling
+2013-05-29 11:32:08 [Scanner-0:1672] - [ INFO] Hibernate Commons Annotations 3.2.0.Final
+2013-05-29 11:32:08 [Scanner-0:1828] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Current_location
+2013-05-29 11:32:08 [Scanner-0:1937] - [ INFO] Bind entity cn.net.msg.model.Current_location on table Current_location
+2013-05-29 11:32:08 [Scanner-0:2047] - [ INFO] Binding entity from annotated class: cn.net.msg.model.Old_location
+2013-05-29 11:32:08 [Scanner-0:2047] - [ INFO] Bind entity cn.net.msg.model.Old_location on table Old_location
+2013-05-29 11:32:08 [Scanner-0:2062] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User
+2013-05-29 11:32:08 [Scanner-0:2062] - [ INFO] Bind entity cn.net.msg.model.User on table t_demo
+2013-05-29 11:32:08 [Scanner-0:2078] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User_Phone
+2013-05-29 11:32:08 [Scanner-0:2078] - [ INFO] Bind entity cn.net.msg.model.User_Phone on table user_table
+2013-05-29 11:32:09 [Scanner-0:2640] - [ INFO] Hibernate Validator not found: ignoring
+2013-05-29 11:32:09 [Scanner-0:2656] - [ INFO] Building new Hibernate SessionFactory
+2013-05-29 11:32:09 [Scanner-0:2656] - [ INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2013-05-29 11:32:09 [Scanner-0:2734] - [ WARN] composite-id class does not override equals(): cn.net.msg.model.Current_location
+2013-05-29 11:32:09 [Scanner-0:2734] - [ WARN] composite-id class does not override hashCode(): cn.net.msg.model.Current_location
+2013-05-29 11:32:09 [Scanner-0:2750] - [ INFO] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2013-05-29 11:32:10 [Scanner-0:3344] - [ INFO] RDBMS: MySQL, version: 5.5.27
+2013-05-29 11:32:10 [Scanner-0:3359] - [ INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+2013-05-29 11:32:10 [Scanner-0:3422] - [ INFO] Using dialect: org.hibernate.dialect.MySQL5Dialect
+2013-05-29 11:32:10 [Scanner-0:3422] - [ INFO] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Automatic flush during beforeCompletion(): disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Automatic session close at end of transaction: disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] JDBC batch size: 15
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] JDBC batch updates for versioned data: disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Scrollable result sets: enabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] JDBC3 getGeneratedKeys(): enabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Connection release mode: auto
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Maximum outer join fetch depth: 2
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Default batch fetch size: 1
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Generate SQL with comments: disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Order SQL updates by primary key: disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Order SQL inserts for batching: disabled
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-05-29 11:32:10 [Scanner-0:3437] - [ INFO] Using ASTQueryTranslatorFactory
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Query language substitutions: {}
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] JPA-QL strict compliance: disabled
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Second-level cache: enabled
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Query cache: disabled
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Optimize cache for minimal puts: disabled
+2013-05-29 11:32:10 [Scanner-0:3453] - [ INFO] Structured second-level cache entries: disabled
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Echoing all SQL to stdout
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Statistics: disabled
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Deleted entity synthetic identifier rollback: disabled
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Default entity-mode: pojo
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Named query checking : enabled
+2013-05-29 11:32:10 [Scanner-0:3469] - [ INFO] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2013-05-29 11:32:10 [Scanner-0:3531] - [ INFO] building session factory
+2013-05-29 11:32:10 [Scanner-0:3937] - [ INFO] Not binding factory to JNDI, no JNDI name configured
+2013-05-29 11:32:10 [Scanner-0:3953] - [ INFO] Running hbm2ddl schema update
+2013-05-29 11:32:10 [Scanner-0:3953] - [ INFO] fetching database metadata
+2013-05-29 11:32:10 [Scanner-0:3953] - [ INFO] updating schema
+2013-05-29 11:32:10 [Scanner-0:4015] - [ INFO] table found: map.current_location
+2013-05-29 11:32:10 [Scanner-0:4015] - [ INFO] columns: [time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:32:10 [Scanner-0:4015] - [ INFO] foreign keys: [fk10e86fdb4a6e808f]
+2013-05-29 11:32:10 [Scanner-0:4015] - [ INFO] indexes: [fk10e86fdb4a6e808f, primary, user_id]
+2013-05-29 11:32:10 [Scanner-0:4047] - [ INFO] table found: map.old_location
+2013-05-29 11:32:10 [Scanner-0:4047] - [ INFO] columns: [id, time, direction, user_id, longitude, latitude, accuracy]
+2013-05-29 11:32:10 [Scanner-0:4047] - [ INFO] foreign keys: [fk13b272ed4a6e808f]
+2013-05-29 11:32:10 [Scanner-0:4047] - [ INFO] indexes: [fk13b272ed4a6e808f, primary]
+2013-05-29 11:32:10 [Scanner-0:4078] - [ INFO] table found: map.t_demo
+2013-05-29 11:32:10 [Scanner-0:4078] - [ INFO] columns: [id, sex, name, age]
+2013-05-29 11:32:10 [Scanner-0:4078] - [ INFO] foreign keys: []
+2013-05-29 11:32:10 [Scanner-0:4078] - [ INFO] indexes: [primary]
+2013-05-29 11:32:10 [Scanner-0:4094] - [ INFO] table found: map.user_table
+2013-05-29 11:32:10 [Scanner-0:4094] - [ INFO] columns: [id, phone, name, password]
+2013-05-29 11:32:10 [Scanner-0:4094] - [ INFO] foreign keys: []
+2013-05-29 11:32:10 [Scanner-0:4094] - [ INFO] indexes: [primary]
+2013-05-29 11:32:10 [Scanner-0:4094] - [ INFO] schema update complete
+2013-05-29 11:32:10 [Scanner-0:4250] - [ INFO] Using DataSource [org.apache.commons.dbcp.BasicDataSource@dc904a] of Hibernate SessionFactory for HibernateTransactionManager
+2013-05-29 11:32:11 [Scanner-0:4687] - [ INFO] Root WebApplicationContext: initialization completed in 4672 ms
+2013-05-29 11:32:11 [Scanner-0:4969] - [ INFO] Parsing configuration file [struts-default.xml]
+2013-05-29 11:32:12 [Scanner-0:5453] - [ INFO] Parsing configuration file [struts-plugin.xml]
+2013-05-29 11:32:12 [Scanner-0:5484] - [ INFO] Parsing configuration file [struts.xml]
+2013-05-29 11:32:12 [Scanner-0:5625] - [ INFO] Initializing Struts-Spring integration...
+2013-05-29 11:32:12 [Scanner-0:5625] - [ INFO] Setting autowire strategy to name
+2013-05-29 11:32:12 [Scanner-0:5625] - [ INFO] ... initialized Struts-Spring integration successfully
+2013-05-29 11:34:04 [Scanner-0:118031] - [ INFO] Closing Root WebApplicationContext: startup date [Wed May 29 11:32:06 CST 2013]; root of context hierarchy
+2013-05-29 11:34:04 [Scanner-0:118031] - [ INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6bd530: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,locationAction,userInfoAction,userPhoneAction,locatonDao,userDao,userPhoneDao,user,locationService,userservice,userService,hibernateTools]; root of factory hierarchy
+2013-05-29 11:34:04 [Scanner-0:118062] - [ INFO] Closing Hibernate SessionFactory
+2013-05-29 11:34:04 [Scanner-0:118062] - [ INFO] closing
